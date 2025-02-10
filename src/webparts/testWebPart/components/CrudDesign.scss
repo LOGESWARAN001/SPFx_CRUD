@@ -1,0 +1,138 @@
+.MainCrud {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+}
+
+.MainCrud {
+  .defaultClass_fdafbcc6 {
+    width: 250px;
+  }
+  .image-137 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+  .p-column-title {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .FilterComponent {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-bottom: 5px;
+  }
+  .p-button {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    gap: 5px;
+    color: rgb(136, 136, 136);
+    height: 30px;
+  }
+  .NewPopup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .NewPopup {
+    .PopupInputContainer {
+      width: 50%;
+
+      display: block;
+      background-color: rgb(234, 240, 240);
+      padding: 10px;
+    }
+    .PopupInputContainer {
+      .Title {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        background-color: transparent;
+        height: 30px;
+        margin-bottom: 10px;
+        align-items: center;
+        font-size: large;
+        font-weight: 300;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .DataRow {
+        background-color: transparent;
+        height: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .DataRowMultiline {
+        background-color: transparent;
+        height: 70px;
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .SubmitBtnDataRow {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 70px;
+      }
+      .p-inputtext {
+        width: 250px;
+        height: 100%;
+        border-radius: 0;
+        font-size: 14px;
+        padding-left: 5px;
+      }
+      .p-dropdown {
+        padding: 0;
+        width: 250px;
+        height: 100%;
+        border-radius: 0;
+      }
+      .p-dropdown-label {
+        font-size: 14px;
+        padding: 5px;
+        font-weight: 300;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .p-multiselect-label {
+        font-size: 14px;
+        height: 100%;
+        font-weight: 300;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .GenderRaioDiv {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        height: 100%;
+        border-radius: 0;
+        width: 250px;
+      }
+      .p-button {
+        height: 25px;
+        padding: 20px;
+        background-color: green;
+        color: white;
+        font-size: 13px;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+#workbenchPageContent {
+  max-width: 100%;
+}
+
+.content_3f3fd3c2,
+.CanvasZone {
+  padding: 10px !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+
+.ms-DetailsList > [role="grid"] {
+  min-width: 100%;
+  width: max-content;
+}
+
+.main-container {
+  //TabMenu
+  .p-tabmenu {
+    border-bottom: 2px solid rgb(221, 219, 219);
+  }
+  .p-highlight {
+    border-bottom: 2.5px solid rgb(170, 169, 169);
+  }
+  .p-tabmenu-nav {
+    border: 0;
+  }
+  .p-menuitem-link {
+    border: 0;
+    gap: 5px;
+  }
+  .p-menuitem-text {
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  //
+  .dataFilters {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .dataFilters {
+    .p-button-label {
+      font-size: 14px;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .p-component {
+      border: 0;
+    }
+    .p-button {
+      background-color: transparent;
+      border: 0;
+      margin: 0;
+      outline: 0;
+      gap: 5px;
+      color: rgb(136, 136, 136);
+    }
+    .dataFiltersSub {
+     justify-content: end;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width:80%;
+      background-color: aqua;
+    }
+  }
+}
