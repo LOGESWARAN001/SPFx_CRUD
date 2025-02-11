@@ -342,6 +342,8 @@ function Crud() {
           <DataTable
             value={FinalTable}
             showGridlines
+            paginator
+            rows={5}
             tableStyle={{ minWidth: "50rem" }}
           >
             <Column field="EmployeeID" header="Employee ID"></Column>
