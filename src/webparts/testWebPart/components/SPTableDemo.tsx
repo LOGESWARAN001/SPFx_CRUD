@@ -579,6 +579,9 @@ export default function SPTableDemo(props) {
       {!DetailPopup && (
         <DataTable
           value={DisplayListData}
+          paginator
+          rows={5}
+          rowsPerPageOptions={[5,10]}
           showGridlines
           tableStyle={{ minWidth: "50rem" }}
         >
