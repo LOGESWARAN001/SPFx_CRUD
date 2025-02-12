@@ -3,6 +3,8 @@
   margin: 10px 0px 0px 0px;
   padding: 0;
 }
+$DarkGreen: #16a34a;
+$FadeGreen: #dcfce7;
 
 .MainCrud {
   .defaultClass_fdafbcc6 {
@@ -43,6 +45,7 @@
       width: 50%;
 
       display: block;
+      // background-color:$DarkGreen;
       background-color: rgb(234, 240, 240);
       padding: 10px;
     }
