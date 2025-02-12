@@ -9,11 +9,20 @@
           "manifest": "./src/webparts/testWebPart/TestWebPartWebPart.manifest.json"
         }
       ]
+    },
+    "test-web-part-001-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testWebPart001/TestWebPart001WebPart.js",
+          "manifest": "./src/webparts/testWebPart001/TestWebPart001WebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "TestWebPartWebPartStrings": "lib/webparts/testWebPart/loc/{locale}.js",
-    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "TestWebPart001WebPartStrings": "lib/webparts/testWebPart001/loc/{locale}.js"
   }
 }
